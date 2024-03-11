@@ -1,0 +1,19 @@
+{
+  "name": "learning-node",
+  "version": "1.0.0",
+  "description": "Learning node ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js", 
+    "start-server": "node app.js"
+  },
+  "author": "Obaid Ashiq",
+  "license": "ISC",
+  "keywords": [
+    "nodejs"
+  ],
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
